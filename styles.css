@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extras minimalistas */
+.card { @apply bg-white rounded-2xl shadow p-4; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 border bg-white hover:bg-slate-50; }
+.btn-primary { @apply bg-blue-600 text-white hover:bg-blue-700; }
+.label { @apply text-sm font-medium text-slate-700; }
+.input { @apply w-full rounded-xl border px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500; }
+.select { @apply w-full rounded-xl border px-3 py-2 bg-white; }
+.badge { @apply inline-flex items-center rounded-xl border px-2 py-1 text-xs; }
+.divider { @apply h-px bg-slate-200 my-4; }
